@@ -5,11 +5,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title> 🚀 Ada Travel</title>
+        <title> 🚀 My Next.js Application</title>
       </Head>
-      <main>
-        <h1>Hello World</h1>
-      </main>
+      <main></main>
     </div>
   )
 }

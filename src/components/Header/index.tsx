@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Container } from './styles'
 import Image from 'next/image'
 
@@ -10,9 +9,8 @@ export function Header() {
     <Container>
       <div>
         <nav>
-          <a href="/">
-            <Image src={logoImg}></Image>
-          </a>
+          <Image src={logoImg}></Image>
+
           <a href="/">Home</a>
           <a href="/">Posts</a>
         </nav>
@@ -20,7 +18,3 @@ export function Header() {
     </Container>
   )
 }
-
-const Title = styled.h1`
-  color: red;
-`
